@@ -1,20 +1,43 @@
-header{
+header {
     text-align: center;
 }
 
-#datos-libro{
+button {
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+#datos-libro {
     padding-left: 12%;
 }
 
-#contenedor{
+#contenedor {
     display: flex;
 }
 
-#descripcion-libro{
+#descripcion-libro {
     padding-left: 3%;
     padding-right: 15%;
 }
 
-#contenido-libro{
-  display: flex;
+
+#contenido-parrafo {
+    display: flex;
+    text-align: justify;
+}
+
+#cont-parr {
+    margin-right: 5%;
 }
