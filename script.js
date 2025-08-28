@@ -19,3 +19,12 @@ buttonCambiarTitulo.addEventListener("click", () => {
     titulo.style.marginBottom = '0.67em';
     titulo.style.fontWeight = 'bold';
 })  
+
+buttonCambiarSubtitulo.addEventListener("click", () => {
+    var descHdr = document.getElementById('desc-hdr');
+    var descParr = document.getElementById('desc-parr');
+
+    descHdr.style.color = 'blue';
+    descParr.style.fontFamily = 'Arial, sans-serif';
+    descParr.style.font = 'italic';
+})
