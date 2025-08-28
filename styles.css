@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+}
+
+#datos-libro{
+    padding-left: 12%;
+}
+
+#contenedor{
+    display: flex;
+}
+
+#descripcion-libro{
+    padding-left: 3%;
+    padding-right: 15%;
+}
+
+#contenido-libro{
+  display: flex;
+}
