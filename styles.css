@@ -20,16 +20,14 @@ p {
 }
 
 #datos-libro {
-    padding-left: 12%;
+    padding-left: 2%;
+    margin-right: 10px;
+    width: 200px;
+    max-width: 200px;
 }
 
 #contenedor {
     display: flex;
-}
-
-#descripcion-libro {
-    padding-left: 3%;
-    padding-right: 15%;
 }
 
 
@@ -40,5 +38,9 @@ p {
 
 #cont-parr {
     margin-right: 5%;
+}
 
+#cuerpo {
+    padding-right: 10%;
+    padding-left: 50px;
 }
